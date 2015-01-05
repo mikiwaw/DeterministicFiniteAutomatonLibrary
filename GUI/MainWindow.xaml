@@ -1,0 +1,61 @@
+﻿<Window x:Class="GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:c="clr-namespace:BindValidation"
+        xmlns:graphsharp="clr-namespace:GraphSharp.Controls;assembly=GraphSharp.Controls"
+        xmlns:zoom="clr-namespace:WPFExtensions.Controls;assembly=WPFextensions"
+        Title="Deterministic Finite Automaton Simulator" Height="350" Width="525"
+        x:Name="root">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Label Content="States" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" VerticalAlignment="Top" Width="70"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="85,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60">
+            <TextBox.Text>
+                <Binding ElementName="root" Path="States" Mode="TwoWay">
+                    <Binding.ValidationRules>
+                        <c:StatesAlphabetValidationRule/>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <Label Content="Alphabet" HorizontalAlignment="Left" Height="23" Margin="10,37,0,0" VerticalAlignment="Top" Width="70"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="85,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60">
+        <TextBox.Text>
+            <Binding ElementName="root" Path="Alphabet" Mode="TwoWay">
+                <Binding.ValidationRules>
+                    <c:StatesAlphabetValidationRule/>
+                </Binding.ValidationRules>
+            </Binding>
+        </TextBox.Text>
+        </TextBox>
+        <Button HorizontalAlignment="Left" Height="78" Margin="150,10,0,0" VerticalAlignment="Top" Width="80" Click="BigButton_Click">
+            <TextBlock Text="Enter Transition Function" TextWrapping="Wrap" TextAlignment="Center" />
+        </Button>
+        <Label Content="Start State" HorizontalAlignment="Left" Height="23" Margin="10,65,0,0" VerticalAlignment="Top" Width="70"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="85,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60">
+        <TextBox.Text>
+            <Binding ElementName="root" Path="StartState" Mode="TwoWay">
+                <Binding.ValidationRules>
+                    <c:StatesAlphabetValidationRule/>
+                </Binding.ValidationRules>
+            </Binding>
+        </TextBox.Text>
+        </TextBox>
+
+
+
+
+
+        <!--<zoom:ZoomControl Grid.Row ="1">
+            <graphsharp:GraphLayout x:Name="graphLayout"
+                                Graph="{Binding ElementName=root, Path=GraphToVisualize}"
+                                LayoutAlgorithmType="FR"
+                                OverlapRemovalAlgorithmType="FSA"
+                                HighlightAlgorithmType="Simple"/>
+        </zoom:ZoomControl>-->
+    </Grid>
+</Window>

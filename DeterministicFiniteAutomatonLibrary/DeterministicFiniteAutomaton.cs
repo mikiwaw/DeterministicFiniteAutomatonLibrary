@@ -4,14 +4,14 @@ namespace DeterministicFiniteAutomatonLibrary
 {
     public class DeterministicFiniteAutomaton
     {
-        public int States { get; private set; }
-        public int Alphabet { get; private set; }
-        public int StartState { get; private set; }
-        private int[,] TransitionFunction;
+        public uint States { get; private set; }
+        public uint Alphabet { get; private set; }
+        public uint StartState { get; private set; }
+        private uint[,] TransitionFunction;
         private bool[] AcceptStates;
-        public int ActualState { get; private set; }
+        public uint ActualState { get; private set; }
 
-        public DeterministicFiniteAutomaton(int States, int Alphabet, int StartState, int[,] TransitionFunction, bool[] AcceptStates)
+        public DeterministicFiniteAutomaton(uint States, uint Alphabet, uint StartState, uint[,] TransitionFunction, bool[] AcceptStates)
         {
             if (States <= 0)
                 throw new ArgumentException("States number have to be greater than 0", "States");
@@ -34,14 +34,14 @@ namespace DeterministicFiniteAutomatonLibrary
             if (TransitionFunction.GetLength(1) != Alphabet)
                 throw new ArgumentException("TransitionFunction columns number have to be equal to Alphabet symbols number (" + Alphabet.ToString() + ")", "TransitionFunction");
 
-            foreach (int state in TransitionFunction)
+            foreach (uint state in TransitionFunction)
             {
                 if (state < 0)
                     throw new ArgumentException("states in TransitionFunction have to be greater than or equal to 0", "TransitionFunction");
                 if (state >= States)
                     throw new ArgumentException("states in TransitionFunction have to be less than States number (" + States.ToString() + ")", "TransitionFunction");
             }
-            this.TransitionFunction = new int[States, Alphabet];
+            this.TransitionFunction = new uint[States, Alphabet];
             Array.Copy(TransitionFunction, this.TransitionFunction, TransitionFunction.Length);
 
             if (AcceptStates == null)
@@ -54,7 +54,7 @@ namespace DeterministicFiniteAutomatonLibrary
             this.ActualState = StartState;
         }
 
-        public int GetNextState(int state, int symbol)
+        public uint GetNextState(uint state, uint symbol)
         {
             if (state < 0)
                 throw new IndexOutOfRangeException("state index have to be greater than or equal to 0");
@@ -74,7 +74,7 @@ namespace DeterministicFiniteAutomatonLibrary
             return AcceptStates[ActualState];
         }
 
-        public bool IsAcceptState(int state)
+        public bool IsAcceptState(uint state)
         {
             if (state < 0)
                 throw new IndexOutOfRangeException("state index have to be greater than or equal to 0");
@@ -89,7 +89,7 @@ namespace DeterministicFiniteAutomatonLibrary
             ActualState = StartState;
         }
 
-        public int Input(int symbol)
+        public uint Input(uint symbol)
         {
             if (symbol < 0)
                 throw new ArgumentException("symbol index have to be greater than or equal to 0", "symbol");
@@ -99,12 +99,12 @@ namespace DeterministicFiniteAutomatonLibrary
             return ActualState;
         }
 
-        public int Input(string symbol)
+        public uint Input(string symbol)
         {
-            int tmpSymbol;
+            uint tmpSymbol;
             try
             {
-                tmpSymbol = Convert.ToInt32(symbol);
+                tmpSymbol = Convert.ToUInt32(symbol);
             }
             catch (Exception e)
             {
@@ -121,7 +121,7 @@ namespace DeterministicFiniteAutomatonLibrary
             }
         }
 
-        public int Input(char symbol)
+        public uint Input(char symbol)
         {
             try
             {
