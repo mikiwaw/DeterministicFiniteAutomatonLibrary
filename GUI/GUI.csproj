@@ -43,23 +43,23 @@
     </Reference>
     <Reference Include="GraphSharp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Reference\GraphSharp-v1.0-release\Release\GraphSharp.dll</HintPath>
+      <HintPath>..\Reference\GraphSharp-v1.0-release\GraphSharp.dll</HintPath>
     </Reference>
     <Reference Include="GraphSharp.Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Reference\GraphSharp-v1.0-release\Release\GraphSharp.Contracts.dll</HintPath>
+      <HintPath>..\Reference\GraphSharp-v1.0-release\GraphSharp.Contracts.dll</HintPath>
     </Reference>
     <Reference Include="GraphSharp.Controls, Version=1.0.3438.42202, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Reference\GraphSharp-v1.0-release\Release\GraphSharp.Controls.dll</HintPath>
+      <HintPath>..\Reference\GraphSharp-v1.0-release\GraphSharp.Controls.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=736440c9b414ea16, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Reference\GraphSharp-v1.0-release\Release\Microsoft.Contracts.dll</HintPath>
+      <HintPath>..\Reference\GraphSharp-v1.0-release\Microsoft.Contracts.dll</HintPath>
     </Reference>
     <Reference Include="QuickGraph, Version=3.2.40122.0, Culture=neutral, PublicKeyToken=f3fb40175eec2af3, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Reference\GraphSharp-v1.0-release\Release\QuickGraph.dll</HintPath>
+      <HintPath>..\Reference\GraphSharp-v1.0-release\QuickGraph.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -76,7 +76,7 @@
     <Reference Include="PresentationFramework" />
     <Reference Include="WPFExtensions, Version=1.0.3437.34043, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Reference\GraphSharp-v1.0-release\Release\WPFExtensions.dll</HintPath>
+      <HintPath>..\Reference\GraphSharp-v1.0-release\WPFExtensions.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
