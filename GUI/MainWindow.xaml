@@ -50,12 +50,12 @@
 
 
 
-        <!--<zoom:ZoomControl Grid.Row ="1">
+        <zoom:ZoomControl Grid.Row ="1">
             <graphsharp:GraphLayout x:Name="graphLayout"
                                 Graph="{Binding ElementName=root, Path=GraphToVisualize}"
                                 LayoutAlgorithmType="FR"
                                 OverlapRemovalAlgorithmType="FSA"
                                 HighlightAlgorithmType="Simple"/>
-        </zoom:ZoomControl>-->
+        </zoom:ZoomControl>
     </Grid>
 </Window>

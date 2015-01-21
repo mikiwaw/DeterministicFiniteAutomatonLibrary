@@ -34,26 +34,32 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DataGrid2DLibrary">
-      <HintPath>..\..\..\Lib\DataGrid2DLibrary\DataGrid2DLibrary.dll</HintPath>
+    <Reference Include="DataGrid2DLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Reference\DataGrid2DLibrary\DataGrid2DLibrary.dll</HintPath>
     </Reference>
     <Reference Include="DeterministicFiniteAutomatonLibrary">
       <HintPath>..\DeterministicFiniteAutomatonLibrary\bin\Release\DeterministicFiniteAutomatonLibrary.dll</HintPath>
     </Reference>
-    <Reference Include="GraphSharp">
-      <HintPath>..\..\..\Lib\GraphSharp-v1.0-release\Release\GraphSharp.dll</HintPath>
+    <Reference Include="GraphSharp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Reference\GraphSharp-v1.0-release\Release\GraphSharp.dll</HintPath>
     </Reference>
-    <Reference Include="GraphSharp.Contracts">
-      <HintPath>..\..\..\Lib\GraphSharp-v1.0-release\Release\GraphSharp.Contracts.dll</HintPath>
+    <Reference Include="GraphSharp.Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Reference\GraphSharp-v1.0-release\Release\GraphSharp.Contracts.dll</HintPath>
     </Reference>
-    <Reference Include="GraphSharp.Controls">
-      <HintPath>..\..\..\Lib\GraphSharp-v1.0-release\Release\GraphSharp.Controls.dll</HintPath>
+    <Reference Include="GraphSharp.Controls, Version=1.0.3438.42202, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Reference\GraphSharp-v1.0-release\Release\GraphSharp.Controls.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Contracts">
-      <HintPath>..\..\..\Lib\GraphSharp-v1.0-release\Release\Microsoft.Contracts.dll</HintPath>
+    <Reference Include="Microsoft.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=736440c9b414ea16, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Reference\GraphSharp-v1.0-release\Release\Microsoft.Contracts.dll</HintPath>
     </Reference>
-    <Reference Include="QuickGraph">
-      <HintPath>..\..\..\Lib\GraphSharp-v1.0-release\Release\QuickGraph.dll</HintPath>
+    <Reference Include="QuickGraph, Version=3.2.40122.0, Culture=neutral, PublicKeyToken=f3fb40175eec2af3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Reference\GraphSharp-v1.0-release\Release\QuickGraph.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -68,8 +74,9 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <Reference Include="WPFExtensions">
-      <HintPath>..\..\..\Lib\GraphSharp-v1.0-release\Release\WPFExtensions.dll</HintPath>
+    <Reference Include="WPFExtensions, Version=1.0.3437.34043, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Reference\GraphSharp-v1.0-release\Release\WPFExtensions.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
