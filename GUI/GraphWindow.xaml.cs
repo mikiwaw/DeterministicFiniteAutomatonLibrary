@@ -1,5 +1,6 @@
 ﻿using DeterministicFiniteAutomatonLibrary;
-using QuickGraph;
+using GraphX;
+using GraphX.GraphSharp.Algorithms.Layout.Simple.FDP;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,43 +18,62 @@ using System.Windows.Shapes;
 namespace GUI
 {
     /// <summary>
-    /// Interaction logic for Window1.xaml
+    /// Interaction logic for GraphWindow.xaml
     /// </summary>
     public partial class GraphWindow : Window
     {
         public GraphWindow(DeterministicFiniteAutomaton dfa)
         {
-            CreateGraphToVisualize(dfa);
-
             InitializeComponent();
+
+            zoomctrl.ZoomToFill();
+
+            MyGraphArea_Setup(dfa);
         }
 
-        private IBidirectionalGraph<object, IEdge<object>> _graphToVisualize;
-        public IBidirectionalGraph<object, IEdge<object>> GraphToVisualize { get { return _graphToVisualize; } }
-
-        private void CreateGraphToVisualize(DeterministicFiniteAutomaton dfa)
+        private void MyGraphArea_Setup(DeterministicFiniteAutomaton dfa)
         {
-            var g = new BidirectionalGraph<object, IEdge<object>>();
+            var logicCore = new MyGXLogicCore() { Graph = MyGraph_Setup(dfa) };
 
-            //string[] vertices = new string[dfa.States];
+            logicCore.DefaultLayoutAlgorithm = LayoutAlgorithmTypeEnum.KK;
+
+            logicCore.DefaultLayoutAlgorithmParams = logicCore.AlgorithmFactory.CreateLayoutParameters(LayoutAlgorithmTypeEnum.KK);
+
+            ((KKLayoutParameters)logicCore.DefaultLayoutAlgorithmParams).MaxIterations = (int)(dfa.States * dfa.States);
+
+            logicCore.DefaultOverlapRemovalAlgorithm = OverlapRemovalAlgorithmTypeEnum.FSA;
+
+            logicCore.DefaultOverlapRemovalAlgorithmParams.HorizontalGap = 50;
+            logicCore.DefaultOverlapRemovalAlgorithmParams.VerticalGap = 50;
+
+            logicCore.DefaultEdgeRoutingAlgorithm = EdgeRoutingAlgorithmTypeEnum.SimpleER;
+
+            logicCore.AsyncAlgorithmCompute = false;
+
+            Area.LogicCore = logicCore;
+
+        }
+
+        private MyGraph MyGraph_Setup(DeterministicFiniteAutomaton dfa)
+        {
+            var dataGraph = new MyGraph();
+
             for (uint i = 0; i < dfa.States; i++)
             {
-                //vertices[i] = i.ToString();
-
-                g.AddVertex(i.ToString());
+                var dataVertex = new DataVertex("q" + i.ToString()) { ID = i };
+                dataGraph.AddVertex(dataVertex);
             }
 
+            var vlist = dataGraph.Vertices.ToList();
+
             for (uint i = 0; i < dfa.States; i++)
-                for (uint j = 0; j < dfa.Alphabet; j++)
-                {
-                   // g.AddEdge(new Edge<object>(vertices[i], vertices[dfa.GetNextState(i, j)]));
-                    g.AddEdge(new Edge<object>(i.ToString(), dfa.GetNextState(i, j).ToString()));
-                }
+			    for (uint j = 0; j < dfa.Alphabet; j++)
+			{
+                var dataEdge = new DataEdge(vlist[(int)i], vlist[(int)dfa.GetNextState(i, j)]) { Text = j.ToString() };   
+			}
 
-            _graphToVisualize = g;
+            return dataGraph;
         }
-
-
 
 
     }

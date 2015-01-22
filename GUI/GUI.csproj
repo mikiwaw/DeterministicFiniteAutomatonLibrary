@@ -41,25 +41,17 @@
     <Reference Include="DeterministicFiniteAutomatonLibrary">
       <HintPath>..\DeterministicFiniteAutomatonLibrary\bin\Release\DeterministicFiniteAutomatonLibrary.dll</HintPath>
     </Reference>
-    <Reference Include="GraphSharp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Reference\GraphSharp-v1.0-release\GraphSharp.dll</HintPath>
+    <Reference Include="GraphX.PCL.Common">
+      <HintPath>..\Reference\GraphX-PCL\GraphX.PCL.Common\bin\Release\GraphX.PCL.Common.dll</HintPath>
     </Reference>
-    <Reference Include="GraphSharp.Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Reference\GraphSharp-v1.0-release\GraphSharp.Contracts.dll</HintPath>
+    <Reference Include="GraphX.PCL.Logic">
+      <HintPath>..\Reference\GraphX-PCL\GraphX.PCL.Logic\bin\Release\GraphX.PCL.Logic.dll</HintPath>
     </Reference>
-    <Reference Include="GraphSharp.Controls, Version=1.0.3438.42202, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Reference\GraphSharp-v1.0-release\GraphSharp.Controls.dll</HintPath>
+    <Reference Include="GraphX.WPF.Controls">
+      <HintPath>..\Reference\GraphX-PCL\GraphX.Controls\bin\Release\GraphX.WPF.Controls.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=736440c9b414ea16, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Reference\GraphSharp-v1.0-release\Microsoft.Contracts.dll</HintPath>
-    </Reference>
-    <Reference Include="QuickGraph, Version=3.2.40122.0, Culture=neutral, PublicKeyToken=f3fb40175eec2af3, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Reference\GraphSharp-v1.0-release\QuickGraph.dll</HintPath>
+    <Reference Include="QuickGraph">
+      <HintPath>..\Reference\GraphX-PCL\packages\QuickGraph.3.6.61119.7\lib\net4\QuickGraph.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -74,24 +66,29 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <Reference Include="WPFExtensions, Version=1.0.3437.34043, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Reference\GraphSharp-v1.0-release\WPFExtensions.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="StartStateValidationRule.cs" />
-    <Compile Include="StatesAlphabetRangeRule.cs" />
-    <Compile Include="TransitionFunctionWindow.xaml.cs">
-      <DependentUpon>TransitionFunctionWindow.xaml</DependentUpon>
-    </Compile>
     <Compile Include="GraphWindow.xaml.cs">
       <DependentUpon>GraphWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\DataEdge.cs" />
+    <Compile Include="Models\DataVertex.cs" />
+    <Compile Include="Models\MyGraph.cs" />
+    <Compile Include="Models\MyGraphArea.cs" />
+    <Compile Include="Models\MyGXLogicCore.cs" />
+    <Compile Include="ValidationRules\StartStateValidationRule.cs" />
+    <Compile Include="ValidationRules\StatesAlphabetRangeRule.cs" />
+    <Compile Include="TransitionFunctionWindow.xaml.cs">
+      <DependentUpon>TransitionFunctionWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="GraphWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -105,10 +102,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="TransitionFunctionWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="GraphWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
