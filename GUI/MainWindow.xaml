@@ -2,11 +2,9 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:c="clr-namespace:BindValidation"
-        xmlns:graphsharp="clr-namespace:GraphSharp.Controls;assembly=GraphSharp.Controls"
-        xmlns:zoom="clr-namespace:WPFExtensions.Controls;assembly=WPFextensions"
         Title="Deterministic Finite Automaton Simulator" Height="350" Width="525"
         x:Name="root">
-
+   
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="100" />
@@ -50,12 +48,6 @@
 
 
 
-        <zoom:ZoomControl Grid.Row ="1">
-            <graphsharp:GraphLayout x:Name="graphLayout"
-                                Graph="{Binding ElementName=root, Path=GraphToVisualize}"
-                                LayoutAlgorithmType="FR"
-                                OverlapRemovalAlgorithmType="FSA"
-                                HighlightAlgorithmType="Simple"/>
-        </zoom:ZoomControl>
+        
     </Grid>
 </Window>

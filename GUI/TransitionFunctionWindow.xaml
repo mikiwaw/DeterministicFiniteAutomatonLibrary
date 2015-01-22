@@ -9,8 +9,25 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-        <dg2d:DataGrid2D Grid.Row="0"  Name="dataGrid2D"
-                 ItemsSource2D="{Binding Int2DList}" />
-            <Button Grid.Row="1" Height="27" Content="Generuj" Click="GenerujButton_Click" />
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <dg2d:DataGrid2D Grid.Column="0"  Name="dataGrid2D" />
+            <dg2d:DataGrid2D Grid.Column="1"  Name="dataGrid2DAcceptStates" />
+
+
+            <!--<StackPanel Grid.Column="1">
+                <CheckBox>
+                    <CheckBox.IsChecked>
+                        <Binding ElementName="root" Path="AcceptStates[0]" Mode="TwoWay" />
+                    </CheckBox.IsChecked>
+                </CheckBox>
+            </StackPanel>-->
+        </Grid>
+
+
+        <Button Grid.Row="1" Height="27" Content="Enter Accept States" Click="EnterAcceptStatesButton_Click" />
     </Grid>
 </Window>

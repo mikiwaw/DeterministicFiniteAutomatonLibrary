@@ -20,21 +20,20 @@ namespace GUI
     /// </summary>
     public partial class TransitionFunctionWindow : Window
     {
-        private uint states;
         private uint[,] transitionFunction;
-        
+        private bool[] acceptStates;
 
 
 
-        public TransitionFunctionWindow(int states, int alphabet)
+        public TransitionFunctionWindow(uint states, uint alphabet)
         {
             this.transitionFunction = new uint[states, alphabet];
+            this.acceptStates = new bool[states];
             InitializeComponent();
-
             dataGrid2D.DataContext = this;
             dataGrid2D.ItemsSource2D = transitionFunction;
-
-
+            dataGrid2DAcceptStates.DataContext = this;
+            dataGrid2DAcceptStates.ItemsSource2D = acceptStates;
         }
 
         public uint[,] GetTransitionFunction()
@@ -42,7 +41,12 @@ namespace GUI
             return transitionFunction;
         }
 
-        private void GenerujButton_Click(object sender, RoutedEventArgs e)
+        public bool[] GetAcceptStates()
+        {
+            return acceptStates;
+        }
+
+        private void EnterAcceptStatesButton_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
         }

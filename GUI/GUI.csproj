@@ -89,6 +89,9 @@
     <Compile Include="TransitionFunctionWindow.xaml.cs">
       <DependentUpon>TransitionFunctionWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="GraphWindow.xaml.cs">
+      <DependentUpon>GraphWindow.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -102,6 +105,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="TransitionFunctionWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GraphWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

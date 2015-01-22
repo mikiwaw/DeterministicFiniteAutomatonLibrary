@@ -1,0 +1,21 @@
+﻿<Window x:Class="GUI.GraphWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:graphsharp="clr-namespace:GraphSharp.Controls;assembly=GraphSharp.Controls"
+        xmlns:zoom="clr-namespace:WPFExtensions.Controls;assembly=WPFextensions"
+        Title="Window1" Height="300" Width="300"
+        x:Name="root">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <zoom:ZoomControl Grid.Row ="1">
+            <graphsharp:GraphLayout x:Name="graphLayout"
+                                Graph="{Binding ElementName=root, Path=GraphToVisualize}"
+                                LayoutAlgorithmType="FR"
+                                OverlapRemovalAlgorithmType="FSA"
+                                HighlightAlgorithmType="Simple"/>
+        </zoom:ZoomControl>
+    </Grid>
+</Window>
