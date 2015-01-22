@@ -1,0 +1,16 @@
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.Controls\obj\Debug\GraphX.WPF.Controls.csprojResolveAssemblyReference.cache
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.Controls\obj\Debug\GraphX.WPF.Controls_MarkupCompile.cache
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.Controls\obj\Debug\GraphX.WPF.Controls_MarkupCompile.lref
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.Controls\bin\Debug\GraphX.WPF.Controls.dll
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.Controls\bin\Debug\GraphX.WPF.Controls.pdb
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.Controls\bin\Debug\GraphX.PCL.Common.dll
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.Controls\bin\Debug\GraphX.PCL.Logic.dll
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.Controls\bin\Debug\QuickGraph.dll
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.Controls\bin\Debug\GraphX.PCL.Common.pdb
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.Controls\bin\Debug\GraphX.PCL.Logic.pdb
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.Controls\bin\Debug\QuickGraph.xml
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.Controls\obj\Debug\Themes\Generic.baml
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.Controls\obj\Debug\GraphX.WPF.Controls.g.resources
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.Controls\obj\Debug\GraphX.WPF.Controls.dll
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.Controls\obj\Debug\GraphX.WPF.Controls.pdb

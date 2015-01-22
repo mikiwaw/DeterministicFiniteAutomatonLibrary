@@ -1,0 +1,5 @@
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.PCL.Common\bin\Release\GraphX.PCL.Common.XML
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.PCL.Common\bin\Release\GraphX.PCL.Common.dll
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.PCL.Common\bin\Release\QuickGraph.dll
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.PCL.Common\bin\Release\QuickGraph.xml
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.PCL.Common\obj\Release\GraphX.PCL.Common.dll

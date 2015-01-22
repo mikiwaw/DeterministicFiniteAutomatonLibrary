@@ -1,0 +1,48 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WindowsDesktop_VB.NET_WinForms_Example
+</name>
+</assembly>
+<members>
+<member name="P:WindowsDesktop_VB.NET_WinForms_Example.Models.DataVertex.Text">
+	<summary>
+ Some string property for example purposes
+ </summary>
+</member><member name="M:WindowsDesktop_VB.NET_WinForms_Example.Models.DataVertex.#ctor">
+	<summary>
+ Default parameterless constructor for this class
+ (required for YAXLib serialization)
+ </summary>
+</member><member name="M:WindowsDesktop_VB.NET_WinForms_Example.Models.DataEdge.#ctor(WindowsDesktop_VB.NET_WinForms_Example.Models.DataVertex,WindowsDesktop_VB.NET_WinForms_Example.Models.DataVertex,System.Double)">
+	<summary>
+ Default constructor. We need to set at least Source and Target properties of the edge.
+ </summary>
+	<param name="source">Source vertex data</param>
+	<param name="target">Target vertex data</param>
+	<param name="weight">Optional edge weight</param>
+</member><member name="M:WindowsDesktop_VB.NET_WinForms_Example.Models.DataEdge.#ctor">
+	<summary>
+ Default parameterless constructor (for serialization compatibility)
+ </summary>
+</member><member name="P:WindowsDesktop_VB.NET_WinForms_Example.Models.DataEdge.Text">
+	<summary>
+ Custom string property for example
+ </summary>
+</member><member name="P:WindowsDesktop_VB.NET_WinForms_Example.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:WindowsDesktop_VB.NET_WinForms_Example.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:WindowsDesktop_VB.NET_WinForms_Example.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

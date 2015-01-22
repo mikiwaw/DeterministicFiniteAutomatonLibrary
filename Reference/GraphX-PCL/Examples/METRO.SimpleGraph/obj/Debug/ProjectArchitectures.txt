@@ -1,0 +1,7 @@
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\Examples\METRO.SimpleGraph\METRO.SimpleGraph.csproj;neutral
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.METRO.Controls\GraphX.METRO.Controls.csproj;neutral
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.PCL.Common\GraphX.PCL.Common.csproj;neutral
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.PCL.Common\GraphX.PCL.Common.csproj;neutral
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.PCL.Common\GraphX.PCL.Common.csproj;neutral
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.PCL.Logic\GraphX.PCL.Logic.csproj;neutral
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.PCL.Logic\GraphX.PCL.Logic.csproj;neutral

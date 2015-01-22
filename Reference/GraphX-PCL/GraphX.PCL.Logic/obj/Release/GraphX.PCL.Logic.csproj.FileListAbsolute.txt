@@ -1,0 +1,8 @@
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.PCL.Logic\bin\Release\GraphX.PCL.Logic.XML
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.PCL.Logic\bin\Release\GraphX.PCL.Logic.dll
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.PCL.Logic\bin\Release\GraphX.PCL.Common.dll
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.PCL.Logic\bin\Release\QuickGraph.dll
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.PCL.Logic\bin\Release\GraphX.PCL.Common.xml
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.PCL.Logic\bin\Release\QuickGraph.xml
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.PCL.Logic\obj\Release\GraphX.PCL.Logic.csprojResolveAssemblyReference.cache
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\GraphX.PCL.Logic\obj\Release\GraphX.PCL.Logic.dll

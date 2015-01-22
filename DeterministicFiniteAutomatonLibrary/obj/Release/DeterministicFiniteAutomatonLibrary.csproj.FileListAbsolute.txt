@@ -1,0 +1,4 @@
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\DeterministicFiniteAutomatonLibrary\bin\Release\DeterministicFiniteAutomatonLibrary.dll
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\DeterministicFiniteAutomatonLibrary\bin\Release\DeterministicFiniteAutomatonLibrary.pdb
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\DeterministicFiniteAutomatonLibrary\obj\Release\DeterministicFiniteAutomatonLibrary.dll
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\DeterministicFiniteAutomatonLibrary\obj\Release\DeterministicFiniteAutomatonLibrary.pdb

@@ -1,0 +1,9 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\mikołaj\onedrive\projects\visual studio 2013\projects\deterministicfiniteautomatonlibrary\reference\graphx-pcl\examples\metro.simplegraph\obj\debug\intermediatexaml\metro.simplegraph.exe" HashGuid="14e14df8-5a9e-8422-3597-f0f25a4ecc8c" />
+    <ReferenceAssembly PathName="c:\users\mikołaj\onedrive\projects\visual studio 2013\projects\deterministicfiniteautomatonlibrary\reference\graphx-pcl\graphx.metro.controls\bin\debug\graphx.metro.controls.dll" HashGuid="25336d80-6de4-92a2-cdf3-d0cc5c3ec3de" />
+    <ReferenceAssembly PathName="c:\users\mikołaj\onedrive\projects\visual studio 2013\projects\deterministicfiniteautomatonlibrary\reference\graphx-pcl\graphx.pcl.common\bin\debug\graphx.pcl.common.dll" HashGuid="8f37509f-bb26-be36-4c61-d32f9595ca29" />
+    <ReferenceAssembly PathName="c:\users\mikołaj\onedrive\projects\visual studio 2013\projects\deterministicfiniteautomatonlibrary\reference\graphx-pcl\graphx.pcl.logic\bin\debug\graphx.pcl.logic.dll" HashGuid="240970db-a7ef-198e-de07-5036d7f72914" />
+    <ReferenceAssembly PathName="c:\users\mikołaj\onedrive\projects\visual studio 2013\projects\deterministicfiniteautomatonlibrary\reference\graphx-pcl\packages\quickgraph.3.6.61119.7\lib\net4\quickgraph.dll" HashGuid="39544435-f200-065b-5bd3-326c4bfd3b61" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

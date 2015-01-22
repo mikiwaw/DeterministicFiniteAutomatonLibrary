@@ -1,0 +1,20 @@
+﻿ShowcaseApp.WPF
+
+
+winexe
+C#
+.cs
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\Examples\ShowcaseApp.WPF\obj\Debug\
+ShowcaseApp.WPF
+none
+false
+TRACE;DEBUG;NET4
+C:\Users\Mikołaj\OneDrive\Projects\visual studio 2013\Projects\DeterministicFiniteAutomatonLibrary\Reference\GraphX-PCL\Examples\ShowcaseApp.WPF\App.xaml
+20941976347
+
+45-1132492608
+201371535922
+Assets\ModernUI.Snowflakes.xaml;Content\SettingsAppearance.xaml;MainWindow.xaml;Pages\DebugGraph.xaml;Pages\EditorGraph.xaml;Pages\DynamicGraph.xaml;Pages\EdgeRoutingGraph.xaml;Pages\GeneralGraph.xaml;Pages\Introduction.xaml;Pages\Settings.xaml;Pages\ThemedGraph.xaml;Templates\Accordion.xaml;Templates\EditorGraphXTemplates.xaml;Templates\DynamicGraphXTemplates.xaml;Templates\ERGraphXTemplates.xaml;Templates\GeneralTemplate.xaml;Templates\TestTemplates.xaml;Templates\ThemedGraphXTemplates.xaml;Templates\TransparentTooltips.xaml;Themes\Generic.xaml;
+
+True
+
